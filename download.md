@@ -24,5 +24,6 @@
             text-decoration: none;
         }
     </style>
-    <button class="btn" onclick='location.href = ("/Collection-of-Dick-Lees-Nonsense.pdf");'>安全下载</button>
+    <button class="btn" onclick='onDownload()'>安全下载</button>
+    <script src="download.js"></script>
 </div>
