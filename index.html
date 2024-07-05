@@ -28,16 +28,22 @@
 </head>
 
 <body class="purple">
-    <div class="container">
-        <div class="top">
-            <center>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Cyber LDK</div>
+            <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">Cyber LDK</a>
+            <div class="navbar-links">
                 <ul>
                     <li><a href="/">首页</a></li>
 			        <li><a href="/index.html?page=download.md">下载完整版</a></li>
 			        <li><a href="/index.html?page=README.md">关于</a></li>
                 </ul>
-            </center>
-        </div>
+            </div>
+        </nav>
+        <script src="header.js"></script>
+    </header>
+
+    <div class="container">
         <div class="content">
             <article id="render-markdown" class="markdown-body entry-content container-lg" itemprop="text">
             </article>

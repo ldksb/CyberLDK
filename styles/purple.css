@@ -399,11 +399,14 @@ body {
 }
 
 /* 导航栏 */
-.top {
-    /* 设置宽度高度背景颜色 */
+.navbar {
     height: 50px;
     width: 100%;
-    background: var(--inline-code-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--inline-code-bg);
+
     top: 0;
     /* 离顶部的距离为0 */
     position: fixed;
@@ -412,55 +415,103 @@ body {
     padding: 0;
 
     z-index: 1000;
-
-    flex: 0 0 auto;
 }
 
-.top ul {
-    /* 清除ul标签的默认样式 */
+.brand-title {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin: 0 20px;
+}
+
+.navbar-links ul {
     width: auto;
     height: 50px;
-    /* 宽度也改为自动 */
-    list-style-type: none;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-top: 0;
-    margin-left: 5%;
-    /* margin-top: 0; */
+    list-style: none;
     padding: 0;
+    margin: 0 20px;
+    display: flex;
 }
 
-.top li {
-    float: left;
-    /* 使li内容横向浮动，即横向排列 */
-    width: 150px;
+.navbar-links li {
+    margin: 0 0.5rem;
+    padding: 0;
     height: 100%;
-    margin: auto;
-    padding: auto;
     vertical-align: middle;
-    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
 }
 
-.top li:hover {
-    /* 鼠标选中时背景变色 */
+.navbar-links a {
+    display: block;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    color: var(--title-color);
+    font-size: 1.2rem;
+    padding: 10px 25px; /* 内边距 */
+    height: 100%; /* 使 a 元素充满 li 元素 */
+    box-sizing: border-box; /* 包括内边距在内 */
+}
+
+.navbar-links li:hover {
     background-color: var(--title-color);
 }
 
-.top li a {
-    /* 设置链接内容显示的格式 */
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    /* 把链接显示为块元素可使整个链接区域可点击 */
-    color: var(--title-color);
-    text-align: center;
-    margin: 0;
-    padding-top: 15px;
-    overflow: hidden;
-    text-decoration: none;
-    /* 去除下划线 */
+.navbar-links li:hover a {
+    color: white;
 }
 
-.top li:hover a {
-    color: white;
+.toggle-button {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    background: none;
+    border: none;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .brand-title {
+        display: none;
+    }
+
+    .navbar-links {
+        display: none;
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-links li {
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .toggle-button {
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+
+.navbar-links.active {
+    display: flex;
 }
