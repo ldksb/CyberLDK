@@ -1,4 +1,4 @@
-const maxDocNum = 2;
+const maxDocNum = 10;
 const docNumLength = 4;
 const pageParam = "page";
 
