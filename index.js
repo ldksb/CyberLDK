@@ -32,6 +32,10 @@ function load(path, callback, errorHandler) {
             else {
                 errorHandler("HTTP GET ERROR FOR: " + path + "<br>Status: " + Http.status);
             }
+            gtag('event', 'markdown_load', {
+                'markdown_path': path,
+                'status': Http.status
+              });
         }
     };
 }
