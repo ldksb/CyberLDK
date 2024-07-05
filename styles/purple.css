@@ -418,9 +418,14 @@ body {
 }
 
 .brand-title {
+    height: 50px;
     font-size: 1.5rem;
     color: var(--title-color);
     margin: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
 }
 
 .navbar-links ul {
