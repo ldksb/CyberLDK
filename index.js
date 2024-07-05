@@ -30,7 +30,7 @@ function load(path, callback, errorHandler) {
                 callback(Http.responseText);
             }
             else {
-                errorHandler("HTTP GET ERROR FOR: " + path + "<br>Status: " + Http.status + "<br>" + Http.responseText);
+                errorHandler("HTTP GET ERROR FOR: " + path + "<br>Status: " + Http.status);
             }
         }
     };
