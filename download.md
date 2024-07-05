@@ -24,6 +24,6 @@
             text-decoration: none;
         }
     </style>
-    <button class="btn" onclick='onDownload()'>安全下载</button>
     <script src="download.js"></script>
+    <button class="btn" onclick='onDownload()'>安全下载</button>
 </div>
