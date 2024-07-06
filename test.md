@@ -14,8 +14,8 @@
 上标^1^  
 下标~2~  
 
-文字中的[链接](https://warsic.cn)  
-这是官网 <https://warsic.cn>  
+文字中的[链接](https://github.com)  
+这是链接 <https://github.com>  
 
 - 要点
 - 要点
@@ -38,7 +38,7 @@
 
 -----
 
-![pic](assets/emblem.jpg "emblem")
+![pic](assets/ldk-avatar.jpg "avatar")
 
 | 自动对齐 | 左对齐 | 右对齐 | 居中对齐 |
 | ----- | :----- | -----: | :-----: |
@@ -57,6 +57,6 @@ return 0;
 }
 ```
 
-创建脚注格式类似这样 [^WARSIC]。
+创建脚注格式类似这样 [^LDK]。
 
-[^WARSIC]: 年轻的灵魂将写下关于梦的乐章！！！
+[^LDK]: 新专辑有，最后一张。
