@@ -32,7 +32,7 @@
 26. [关于对 VirtualVocal 粉丝大会的警告](/index.html?page=pages/0025.md)
 27. [对棉花P批评 Synthesizer V 言论的回应](/index.html?page=pages/0026.md) &#9733;
 28. [关于平行四界产业布局的重要讲话](/index.html?page=pages/0027.md)
-29. [改变自我](/index.html?page=pages/0028.md)
+29. [改变自我](/index.html?page=pages/0028.md) &#9733;
 30. [对平四而言什么样的人最重要](/index.html?page=pages/0029.md) &#9733;
 31. [五一给小学生们上一课](/index.html?page=pages/0030.md) &#9733;
 32. [关于《女孩你为何踮脚尖》事件的回应](/index.html?page=pages/0031.md)
