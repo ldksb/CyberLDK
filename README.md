@@ -14,8 +14,8 @@
 ```markdown
 [查看README](/index.html?page=README.md)
 ```
-Markdown样式参考：[/test.md](/test.md)  
-Markdown样式展示（链接仅渲染后有效）：[/index.html?page=test.md](/index.html?page=test.md)  
+Markdown样式参考：[./test.md](./test.md)  
+Markdown样式展示（链接仅渲染后有效）：[./index.html?page=test.md](./index.html?page=test.md)  
 
 ## Markdown技术支持
 - [MarkdownIt](https://github.com/markdown-it/markdown-it)
