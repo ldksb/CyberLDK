@@ -11,7 +11,7 @@ function randPageName() {
     if(numRanded >= maxDocNum) { numRanded = maxDocNum - 1; }
 
     let numStr = numRanded.toString().padStart(docNumLength, '0');
-    return "/pages/" + numStr + ".md";
+    return "./pages/" + numStr + ".md";
 }
 
 function getPageName() {
